@@ -8,15 +8,15 @@ public class GradleActivityTest{
     public void testTri5(){
         assertEquals(GradleActivity.Tri(5), 15);
     }
-
-    @Test 
-    public void testTri0(){
-        assertEquals(GradleActivity.Tri(0), 0);
-    }
     
     @Test 
     public void testTri1(){
         assertEquals(GradleActivity.Tri(1), 1);
+    }
+    
+    @Test 
+    public void testTri0(){
+        assertEquals(GradleActivity.Tri(0), 0);
     }
 
     @Test
