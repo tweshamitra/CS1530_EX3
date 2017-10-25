@@ -13,6 +13,10 @@ public class GradleActivity{
 			System.out.println("Enter an integer");
 			System.exit(1);
 		} 
+		if(n < 0){
+			System.out.println("Enter a positive integer");
+			System.exit(1);
+		}
 		System.out.println("Tri(n) = " + Tri(n) + "\nLazy(n) = " + Lazy(n));
 	}
 	
